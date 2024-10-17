@@ -2,37 +2,75 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: #E8EFF8;
+  border-color: #4448B3;
+  border-style: inset;
+  border-width: 7px;
+  font-size: 40px;
+  margin: 10px;
+  padding: auto;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+
+h1 {
+  color: #4448B3;
+  font-family: 'Cochin';
+  padding-bottom: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4 {
+  background-color: #4448B3;
+  color: #E8EFF8;
+  font-family: 'Cochin';
+  font-size: 25px;
+  padding: 12px;
+}
+
+a {
+  display: flex;
+  color: #4448B3;
+  font-family: 'Cochin';
+  font-size: 25px;
+  padding-left: 40px;
+}
+
+a:hover{
+  color: #EB4b98;
+}
+
+p {
+  color: #E8EFF8;
+  font-weight: 700px;
+  font-family: 'Gill Sans MT';
+  font-size: 36px;
+  padding: 20px;
+}
+
+#title {
+  padding-right: 50px;
+}
+
+#links {
+  display: flex;
+  flex-direction: row;
+  padding-right: 50px;
+  justify-content: center;
+}
+
+#footer {
+  width: 100%;
+  bottom: 0;
+  clear: both;
+}
+
+#video-section {
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
