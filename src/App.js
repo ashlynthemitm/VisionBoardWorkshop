@@ -27,8 +27,11 @@ function App() {
       <div id="video-section">
         <iframe width="4000" height="480" src="https://www.youtube.com/embed/zy2Zj8yIe6c" title="A 3-Step Guide to Believing in Yourself | Sheryl Lee Ralph | TED" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-        <p>This video serves as a source of motivation for me. I often battle imposter syndrome, and while I understand that it is something that I should not acknowledge, sometimes it can be challenging for me to do. Her words encourage me to keep pursuing my aspirations below!</p>
+        <p style={{padding: 60, backgroundColor: '#4448B3', borderRadius: 15}}>This video serves as a source of motivation for me. I often battle imposter syndrome, and while I understand that it is something that I should not acknowledge, sometimes it can be challenging for me to do. Her words encourage me to keep pursuing my aspirations below!</p>
+
       </div>
+
+      <br></br>
 
       <PhotoCollage/>
 
