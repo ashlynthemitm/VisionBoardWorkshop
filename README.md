@@ -1,6 +1,6 @@
 # Ashlyn's Vision Board
 
-This project was apart of a Technical Workshop.  
+This project was apart of a Technical Workshop with RISE Stars.
 
 ## How to run the app 
 
